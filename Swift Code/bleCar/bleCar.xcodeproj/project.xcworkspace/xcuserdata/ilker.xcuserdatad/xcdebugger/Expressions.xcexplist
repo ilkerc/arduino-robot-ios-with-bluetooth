@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "bleCar.BTService.peripheral (bleCar.BTService)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverCharacteristicsForService : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBService&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ():BTService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "characteristic.UUID as NSString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bleCar.BTService.peripheral (bleCar.BTService)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didUpdateValueForCharacteristic : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBCharacteristic&gt;, error : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ():BTService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "length.toRange()!.endIndex">
+            </PersistentString>
+            <PersistentString
+               value = "bytes?.rangeOfString(&quot;L&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bleCar.BTService.writePosition (bleCar.BTService)(Swift.UInt16) -&gt; ():BTService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "bleCar.BTService.peripheral (bleCar.BTService)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CBPeripheral&gt;, didDiscoverServices : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSError&gt;) -&gt; ():BTService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "service.UUID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bleCar.BTService.writeStringCommand (bleCar.BTService)(command : Swift.String) -&gt; ():BTService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "bleCar.BLEViewController.sliderChanged (bleCar.BLEViewController)(ObjectiveC.UISlider) -&gt; ():BLEViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

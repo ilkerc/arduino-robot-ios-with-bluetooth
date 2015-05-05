@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520C0F111AD96C3D000B5D82 /* BTDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0F0F1AD96C3D000B5D82 /* BTDiscovery.swift */; };
+		520C0F121AD96C3D000B5D82 /* BTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0F101AD96C3D000B5D82 /* BTService.swift */; };
+		520C0F141AD96C5C000B5D82 /* BLEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C0F131AD96C5C000B5D82 /* BLEViewController.swift */; };
+		523F8F591AD9976B00153F1D /* Steering_Wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 523F8F581AD9976B00153F1D /* Steering_Wheel.png */; };
+		5258A19F1AC6070D00504C1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258A19E1AC6070D00504C1A /* AppDelegate.swift */; };
+		5258A1A41AC6070D00504C1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5258A1A21AC6070D00504C1A /* Main.storyboard */; };
+		5258A1A61AC6070D00504C1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5258A1A51AC6070D00504C1A /* Images.xcassets */; };
+		5258A1B51AC6070D00504C1A /* bleCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258A1B41AC6070D00504C1A /* bleCarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5258A1AF1AC6070D00504C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5258A1911AC6070D00504C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5258A1981AC6070D00504C1A;
+			remoteInfo = bleCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520C0F0F1AD96C3D000B5D82 /* BTDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDiscovery.swift; sourceTree = "<group>"; };
+		520C0F101AD96C3D000B5D82 /* BTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTService.swift; sourceTree = "<group>"; };
+		520C0F131AD96C5C000B5D82 /* BLEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLEViewController.swift; path = ../BLEViewController.swift; sourceTree = "<group>"; };
+		523F8F581AD9976B00153F1D /* Steering_Wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steering_Wheel.png; sourceTree = "<group>"; };
+		5258A1991AC6070D00504C1A /* bleCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5258A19D1AC6070D00504C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5258A19E1AC6070D00504C1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5258A1A31AC6070D00504C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5258A1A51AC6070D00504C1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5258A1AE1AC6070D00504C1A /* bleCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bleCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5258A1B31AC6070D00504C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5258A1B41AC6070D00504C1A /* bleCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleCarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5258A1961AC6070D00504C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5258A1AB1AC6070D00504C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520C0F0E1AD96AEC000B5D82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				520C0F0F1AD96C3D000B5D82 /* BTDiscovery.swift */,
+				520C0F101AD96C3D000B5D82 /* BTService.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5258A1901AC6070D00504C1A = {
+			isa = PBXGroup;
+			children = (
+				5258A19B1AC6070D00504C1A /* bleCar */,
+				5258A1B11AC6070D00504C1A /* bleCarTests */,
+				5258A19A1AC6070D00504C1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5258A19A1AC6070D00504C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5258A1991AC6070D00504C1A /* bleCar.app */,
+				5258A1AE1AC6070D00504C1A /* bleCarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5258A19B1AC6070D00504C1A /* bleCar */ = {
+			isa = PBXGroup;
+			children = (
+				520C0F0E1AD96AEC000B5D82 /* Models */,
+				520C0F131AD96C5C000B5D82 /* BLEViewController.swift */,
+				5258A1A21AC6070D00504C1A /* Main.storyboard */,
+				523F8F581AD9976B00153F1D /* Steering_Wheel.png */,
+				5258A1A51AC6070D00504C1A /* Images.xcassets */,
+				5258A19C1AC6070D00504C1A /* Supporting Files */,
+			);
+			path = bleCar;
+			sourceTree = "<group>";
+		};
+		5258A19C1AC6070D00504C1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5258A19E1AC6070D00504C1A /* AppDelegate.swift */,
+				5258A19D1AC6070D00504C1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5258A1B11AC6070D00504C1A /* bleCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5258A1B41AC6070D00504C1A /* bleCarTests.swift */,
+				5258A1B21AC6070D00504C1A /* Supporting Files */,
+			);
+			path = bleCarTests;
+			sourceTree = "<group>";
+		};
+		5258A1B21AC6070D00504C1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5258A1B31AC6070D00504C1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5258A1981AC6070D00504C1A /* bleCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5258A1B81AC6070D00504C1A /* Build configuration list for PBXNativeTarget "bleCar" */;
+			buildPhases = (
+				5258A1951AC6070D00504C1A /* Sources */,
+				5258A1961AC6070D00504C1A /* Frameworks */,
+				5258A1971AC6070D00504C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bleCar;
+			productName = bleCar;
+			productReference = 5258A1991AC6070D00504C1A /* bleCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5258A1AD1AC6070D00504C1A /* bleCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5258A1BB1AC6070D00504C1A /* Build configuration list for PBXNativeTarget "bleCarTests" */;
+			buildPhases = (
+				5258A1AA1AC6070D00504C1A /* Sources */,
+				5258A1AB1AC6070D00504C1A /* Frameworks */,
+				5258A1AC1AC6070D00504C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5258A1B01AC6070D00504C1A /* PBXTargetDependency */,
+			);
+			name = bleCarTests;
+			productName = bleCarTests;
+			productReference = 5258A1AE1AC6070D00504C1A /* bleCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5258A1911AC6070D00504C1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = isikun;
+				TargetAttributes = {
+					5258A1981AC6070D00504C1A = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 552Z8JYXH2;
+					};
+					5258A1AD1AC6070D00504C1A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5258A1981AC6070D00504C1A;
+					};
+				};
+			};
+			buildConfigurationList = 5258A1941AC6070D00504C1A /* Build configuration list for PBXProject "bleCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5258A1901AC6070D00504C1A;
+			productRefGroup = 5258A19A1AC6070D00504C1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5258A1981AC6070D00504C1A /* bleCar */,
+				5258A1AD1AC6070D00504C1A /* bleCarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5258A1971AC6070D00504C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5258A1A41AC6070D00504C1A /* Main.storyboard in Resources */,
+				5258A1A61AC6070D00504C1A /* Images.xcassets in Resources */,
+				523F8F591AD9976B00153F1D /* Steering_Wheel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5258A1AC1AC6070D00504C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5258A1951AC6070D00504C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C0F141AD96C5C000B5D82 /* BLEViewController.swift in Sources */,
+				520C0F121AD96C3D000B5D82 /* BTService.swift in Sources */,
+				520C0F111AD96C3D000B5D82 /* BTDiscovery.swift in Sources */,
+				5258A19F1AC6070D00504C1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5258A1AA1AC6070D00504C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5258A1B51AC6070D00504C1A /* bleCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5258A1B01AC6070D00504C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5258A1981AC6070D00504C1A /* bleCar */;
+			targetProxy = 5258A1AF1AC6070D00504C1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5258A1A21AC6070D00504C1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5258A1A31AC6070D00504C1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5258A1B61AC6070D00504C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5258A1B71AC6070D00504C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5258A1B91AC6070D00504C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = bleCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5258A1BA1AC6070D00504C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = bleCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5258A1BC1AC6070D00504C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bleCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bleCar.app/bleCar";
+			};
+			name = Debug;
+		};
+		5258A1BD1AC6070D00504C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bleCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bleCar.app/bleCar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5258A1941AC6070D00504C1A /* Build configuration list for PBXProject "bleCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5258A1B61AC6070D00504C1A /* Debug */,
+				5258A1B71AC6070D00504C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5258A1B81AC6070D00504C1A /* Build configuration list for PBXNativeTarget "bleCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5258A1B91AC6070D00504C1A /* Debug */,
+				5258A1BA1AC6070D00504C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5258A1BB1AC6070D00504C1A /* Build configuration list for PBXNativeTarget "bleCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5258A1BC1AC6070D00504C1A /* Debug */,
+				5258A1BD1AC6070D00504C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5258A1911AC6070D00504C1A /* Project object */;
+}
